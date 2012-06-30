@@ -1,0 +1,8 @@
+[
+  "A1-B[C]. B4>A. A2-B. A3.",
+  "E2>D[A]. D4->E[A]. E3.",
+  "C1[B]-Z. C2-Z[A+B]. Z4[E]>B. Z4[D]>A. A3+B3.",
+  "D6C*D4>C+E. E3.",
+  "E6B. A6E*A4>E.",
+  "D6Z*D4>Z+A. A6D*A4>D."
+]
