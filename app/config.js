@@ -15,7 +15,8 @@ require.config({
     backbone: "../assets/js/libs/backbone",
     
     // RequireJS plugins
-    json: "../assets/js/plugins/json"
+    json: "../assets/js/plugins/json",
+    text: "../assets/js/plugins/text"
   },
 
   shim: {

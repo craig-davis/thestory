@@ -2,16 +2,21 @@ define([
   "app",
 
   // Libs
-  "backbone"
+  "backbone",
   
   // models
+  
+  // data
+  "json!data/stories.json"
 ],
 
-function(app, Backbone) {
+function(app, Backbone, Stories) {
 
   return Backbone.Model.extend({
     defaults: {
-      "story":  "A very nice story",
+      "story":  Stories[0]
+    },
+    initialize: function() {
     }
   });
 
